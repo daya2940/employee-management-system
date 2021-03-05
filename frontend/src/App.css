@@ -1,0 +1,52 @@
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: #58cea5;
+  border: none;
+}
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.form-input {
+  padding: 15px;
+  border: none;
+  background: whitesmoke;
+  outline: none;
+}
+
+.btn {
+  color: white;
+}
+
+@media only screen and (min-width: 900px) {
+  .card {
+    padding: 3vw;
+    margin: 0 auto;
+    width: 55%;
+    height: 90%;
+  }
+  .signInButton {
+    width: 19vw;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .card {
+    padding: 5vw;
+    margin: 0 auto;
+  }
+  .signInButton {
+    width: 72vw;
+  }
+}
