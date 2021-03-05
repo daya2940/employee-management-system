@@ -1,4 +1,4 @@
 # employee-management-system
 
 # to run the file 
-# npm run dev
+npm run dev
